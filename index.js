@@ -28,7 +28,7 @@ function renderPost(post) {
 }
 
 class Post {
-  constructor(title, content, mood) {
+  constructor({ attributes: { title, content, mood } }) {
     (this.title = title), (this.content = content), (this.mood = mood);
   }
 
@@ -77,6 +77,7 @@ postForm.addEventListener("submit", (e) => {
       mood: postForm.mood.value,
     },
   });
+  debugger;
   submitPost(post);
   postForm.reset();
 });
