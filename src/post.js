@@ -66,22 +66,5 @@ class Post {
       })
     }
 
-  
-
-// postForm = () => { 
-//   document.getElementById("newPost");
-//     postForm.addEventListener("submit", (e) => {
-//   e.preventDefault();
-//   // debugger;
-//   const post = new Post({
-//       title: postForm.title.value,
-//       content: postForm.content.value,
-//       mood: postForm.mood.value,
-//       category: postForm.category.value
-//   });
-//     this.persist();  
-//   postForm.reset();
-// });
-// }
 
   }
