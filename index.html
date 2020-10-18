@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -19,10 +20,19 @@
           <label for="mood">Mood: </label>
           <input id="mood" />
         </div>
+        <div id="dropdown">
+          <label for="category">Category: </label>
+            <select name="type" id="category">
+              <option value="anything here">anything here</option>
+              <option value="this is a category">this is a category</option>
+              <option value="pick a name">pick a name</option>
+            </select>
+        </div>
         <input type="submit" />
       </form>
     </div>
 
     <script src="index.js"></script>
+    <script src="src/post.js"></script>
   </body>
 </html>
